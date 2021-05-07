@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Itim", cursive;
+}
+header {
+  display: block;
+  width: 100%;
+  background-color: #264653;
+  font-size: 2rem;
+  height: 80px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: #2a9d8f;
+}
+nav li {
+  margin: 1.1rem 1.6rem;
+  padding: 7px 10px;
+  border: 2px solid #1f3842;
+  border-radius: 5px;
+}
+nav li:hover {
+  border: 4px solid #17282f;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 400px;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+h2 {
+  font-size: 2rem;
+}
+.LearnNWatch {
+  display: flex;
+  flex-direction: row;
+}
+.LearnNWatch,
+.Play {
+  margin: 50px 0;
+}
+.LearnNWatch img {
+  height: 100px;
+  margin: 0 20px;
+}
+.Play img {
+  height: 200px;
+}
+footer {
+  background-color: #264653;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+footer img {
+  height: 30px;
+  padding: 0 20px 1.1rem 20px;
+}
+footer img:hover {
+  height: 35px;
+}
+footer p {
+  font-size: 1.2rem;
+}
