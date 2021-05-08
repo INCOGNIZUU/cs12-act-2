@@ -75,3 +75,13 @@ footer img:hover {
 footer p {
   font-size: 1.2rem;
 }
+
+/* media queries */
+@media (max-width: 800px) {
+  main {
+    margin: 0;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
