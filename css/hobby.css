@@ -81,6 +81,13 @@ footer p {
   main {
     margin: 0;
   }
+  .LearnNWatch img {
+    height: 50px;
+    margin: 0 20px;
+  }
+  .Play img {
+    height: 100px;
+  }
   footer p {
     font-size: 10px;
   }
