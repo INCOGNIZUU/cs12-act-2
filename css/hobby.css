@@ -108,6 +108,9 @@ footer p {
     display: flex;
     justify-content: center;
   }
+  .hobImg p {
+    font-size: 1.2em;
+  }
 
   footer {
     height: 120px;
